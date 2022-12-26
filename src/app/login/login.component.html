@@ -1,1 +1,26 @@
-<p>login works!</p>
+
+
+<div class="login-container">
+    <img class="world" src="assets/img/world.jpg" alt="">
+    <div class="logo">OverC</div>
+    <div class="desc">
+        The go to location for all your overseas questions about your new team, your new city, and your new situation. 
+        <br>Know before you go.     
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname"  class="form-control" [(ngModel)]="username"/>
+
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+
+    </div>
+</div>

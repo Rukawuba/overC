@@ -1,0 +1,19 @@
+Taken and remodeled from ...
+https://www.youtube.com/watch?v=sv76HcgjLZM&t=911s
+
+
+This video explains about all basic concepts like 
+
+Components
+Data Binding
+Structural and Attribute Directives
+Communication between components
+Services & Dependency Injection
+Life Cycle Hooks with examples
+Routing
+Forms
+HTTP
+Pipes
+
+
+Code is available in the below github rep
