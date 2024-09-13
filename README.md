@@ -1,27 +1,37 @@
-# OverC
+SDLC for a Basketball Club Recommender System
+SDLC (Software Development Life Cycle) for a basketball club recommender system:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0-rc.1.
+Requirement Gathering:
 
-## Development server
+Define the scope of the project, including the countries, levels, and categories.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Eventually we want to include all countries all over the world. For now we will start with 3: 
+Spain, France, and Germany ( Three countries that have very good leagues up until the 3rd at least)
 
-## Code scaffolding
+Spain 1)ACB 2)Oro 3)Plata
+France 1)Betlicelite 2)ProB 3)NM1
+Germany 1) BBL 2) ProA 3)ProB 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Identify the key functionalities: user registration, team search, recommendation generation, and user feedback.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Database Design:
+Design the database schema, including the tables (or collections in NoSQL) and their relationships.
+Consider normalization and indexing to optimize performance.
 
-## Running unit tests
+Backend Development:
+Develop the backend API using a programming language like Python (with frameworks like Flask or Django) (lets try flask in this scenario) or Node.js (with frameworks like Express).
+Implement endpoints for data retrieval, recommendation generation, and user interactions.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Frontend Development:
+Create the user interface using technologies like HTML, CSS, and JavaScript.
+Design the user experience to make it easy for users to search for teams and receive recommendations.
+Testing:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Conduct unit, integration, and system testing to ensure the application works as expected.
+Test the recommendation algorithm to verify its accuracy.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Deployment:
+Deploy the application to a production environment, such as a cloud platform or a dedicated server.
